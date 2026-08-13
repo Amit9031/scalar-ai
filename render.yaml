@@ -3,6 +3,7 @@ services:
     name: fireflies-backend
     runtime: python
     rootDir: backend
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     envVars:
@@ -13,6 +14,7 @@ services:
     name: fireflies-frontend
     runtime: node
     rootDir: frontend
+    plan: free
     buildCommand: npm run build
     startCommand: npm start
     envVars:
