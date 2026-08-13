@@ -21,4 +21,4 @@ services:
       - key: NODE_VERSION
         value: 20.18.0
       - key: NEXT_PUBLIC_API_URL
-        value: https://fireflies-backend.onrender.com/api
+        value: https://fireflies-backend-5pel.onrender.com/api
